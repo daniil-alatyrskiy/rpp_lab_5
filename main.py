@@ -8,7 +8,11 @@ def select_directory():
     return filedialog.askdirectory(title="Выберите директорию для подсчета файлов")
 
 
+<<<<<<< HEAD
 def mega_main():
+=======
+def super_puper_main():
+>>>>>>> 3b307e9aea9fc49d72efcd1f5ae55df62fce3ff5
     directory = select_directory()
     if not directory:
         print("Директория не выбрана.")
@@ -76,4 +80,8 @@ def mega_main():
 
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     mega_main()
+=======
+    super_puper_main()
+>>>>>>> 3b307e9aea9fc49d72efcd1f5ae55df62fce3ff5
